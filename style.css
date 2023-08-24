@@ -1,0 +1,108 @@
+*,
+*::before
+* ::after
+{
+    padding: 0;
+    margin: 0;
+}
+
+
+
+.box-prod-desc
+{
+    flex: 1;
+    
+}
+
+body
+{
+background-color: hsl(30, 35%, 92%);
+display: flex;
+align-items: center;
+justify-content: center;
+height: 100vh;
+font-family: 'Montserrat';
+
+}
+
+.container
+{
+    background-color: #ffffff;
+  width: 50%;
+  display: flex;  
+}
+
+.img{
+    width: 100%
+}
+
+.img-box,
+.img
+{
+    border-radius: 8px 0 0 8px;
+}
+
+
+.box-img-box
+{
+    flex: 1;
+    align-self: flex-start;
+  
+    display:fflex;
+}
+
+.prod-desc
+{
+
+    flex: 1;
+}
+
+h1
+{
+    font-family: 'Fraunces';
+    font-size: 31px;
+}
+
+.box-inner
+{
+    padding: 35px 25px;
+    display: flex;
+    flex-direction: column;
+}
+.box-inner .small-text-1
+{
+    text-transform: uppercase;
+    letter-spacing: 8px;
+    color: #bebdbd;
+}
+
+.box.inner p
+{
+    line-height: 1;
+    color: #555;
+    font-size: 15px;
+
+}
+
+.box-inner .price-tag
+{
+    display: flex;
+    color: hsl(158, 36%, 37%);
+    gap: 5px;
+}
+.small-text-2
+{
+    display: flex;
+    align-items: center;
+    text-decoration: line-through;
+}
+
+.btn-cart
+{
+    border: none;
+    width: 12rem;
+    height: 3rem;
+    border-radius: 7px;
+    background-color: hsl(158, 36%, 37%);
+    margin-left: 35px;
+}
